@@ -1,0 +1,13 @@
+{
+  "appId": "com.sept132.myapk",
+  "appName": "My",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https",
+    "cleartext": false
+  },
+  "android": {
+    "backgroundColor": "#F4F1FB",
+    "allowMixedContent": false
+  }
+}

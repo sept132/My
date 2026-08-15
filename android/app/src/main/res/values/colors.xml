@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- My brand palette (matches ui-redesign.css) -->
+    <color name="colorPrimary">#7857FB</color>
+    <color name="colorPrimaryDark">#5A3BE0</color>
+    <color name="colorAccent">#7857FB</color>
+    <color name="brandLavender">#F4F1FB</color>
+    <color name="brandInk">#241E3B</color>
+</resources>

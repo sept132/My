@@ -1,0 +1,27 @@
+{
+  "name": "my-maid-my-pdf-tool",
+  "version": "1.0.0",
+  "private": true,
+  "description": "My — personal assistant & productivity suite (web app + Android app via Capacitor)",
+  "scripts": {
+    "dev": "node server.js",
+    "preview": "node server.js",
+    "start": "node server.js",
+    "build": "node -e \"console.log('Static site — no build step needed')\"",
+    "vendor:fetch": "bun scripts/fetch-vendor.mjs",
+    "apk:sync": "cap sync android",
+    "apk:debug": "cap sync android && cd android && ./gradlew assembleDebug",
+    "apk:release": "cap sync android && cd android && ./gradlew assembleRelease"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.0",
+    "@capacitor/app": "^8.0.0",
+    "@aparajita/capacitor-biometric-auth": "^9.0.0",
+    "@capacitor/core": "^8.5.0",
+    "@capacitor/filesystem": "^8.0.0",
+    "@capacitor/local-notifications": "^8.2.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.0"
+  }
+}
